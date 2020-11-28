@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>위잇 프로모션 웹 사이트 (We-eat promotion website)</title>
+        <!-- css -->
+        <link rel="stylesheet" href="../css/style.css" />
+    </head>
+    <body>
+        <div id = "wrap">
+            <!-- header -->
+            <header>
+                <!-- Logo -->
+                <h1 class = "logo">
+                    <a href="#"><img alt="로고" src="../images/Logo.png" width="92px" /></a>
+                </h1>
+                <!-- nav -->
+                <nav id="gnb">
+                    <ul>
+                        <div class="li-wrap">
+                            <li class="gnb-el"><a href="#preview-area"> 프로젝트 개요 </a></li>
+                            <li class="gnb-el"><a href="#introduce-area"> 프로젝트 소개 </a></li>
+                            <li class="gnb-el"><a href="#strategy-area"> 디자인 전략 </a></li>
+                            <li class="gnb-el"><a href="#design-area"> 위잇 디자인 </a></li>
+                            <li class="gnb-el"><a href="#team-area"> team </a></li>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="clear"></div>
+                    </ul>
+                </nav>
+            </header>
+            <!-- contents -->
+            <div id = "section-wrap">
+                <!-- main visual (video) -->
+                <section id = "main-area">
+                    <!-- video -->
+                    <div class="video-area">
+                        <video id="main-video" autoplay muted loop src="../videos/intro.mp4" width="100%"></video>
+                    </div>
+                    <!-- <div class="video-opacity"></div> -->
+                    <div class="main-content">
+                        <ul class="main_icon">
+                            <li><img src="../images/icon.png" width="200px" /></li>
+                            <li><img src="../images/Logo-big.png" width="300px" /></li>
+                            <li>우리가 먹는 음식, 걱정되시나요? <br /> 위잇으로 위생적인 하루를 보내보세요</li>
+                        </ul>
+                    </div>
+                </section>
+                <section id = "video-area">
+                    <p class="up"><img src="../images/Logo.png" /> 을 사용해보세요!</p>
+                    <iframe src="https://www.youtube.com/embed/QcCxvYcB1xA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+                </section>
+
+                <!-- project overview (1 - 4) -->
+                <div id = "preview-area">
+                    <section>
+                        <article class = "pjt-preview-1">
+                            <div>
+                                <!-- title -->
+                                <div class = "title">
+                                    <h2>
+                                        <div class = "num">
+                                            <img src="../images/num-1.png" />
+                                        </div>
+                                        <div class = "title-txt">
+                                            <p class="title-KR">프로젝트 개요</p>
+                                            <p class="title-EN">project overview</p>
+                                        </div>
+                                    </h2>
+                                </div>
+                                <!-- contents -->
+                                <div class = "contents">
+                                    <div class = "txt">
+                                        <p class = "up">
+                                            <em>Q.</em>
+                                            당신은 오늘 무엇을 먹었나요?
+                                        </p>
+                                        <p class = "down">우리가 평소에 자주 먹는 음식들이 어떤 환경에서 만들어지는지 알고있었나요?</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                    <div id="tab-menu" class="clear-backend">
+                                        <!-- tab-menu -->
+                                        <input type="radio" class="tab-1" name="tab" checked="checked">
+                                        <div class="txt">
+                                            <span><img src="../images/graph-icn-1.png" /></span>
+                                            <div class="select"><span><em>A.</em> 패스트 푸드</span></div>
+                                        </div>
+                                        <i class="fa fa-home"></i>
+                                        <input type="radio" class="tab-2" name="tab">
+                                        <div class="txt">
+                                            <span><img src="../images/graph-icn-2.png" /></span>
+                                            <div class="select"><span><em>B.</em> 카페</span></div>
+                                        </div>
+                                        <i class="fa fa-medium"></i>
+
+                                        <input type="radio" class="tab-3" name="tab">
+                                        <div class="txt">
+                                            <span><img src="../images/graph-icn-3.png" /></span>
+                                            <div class="select"><span id="last"><em>C.</em> 레스토랑</span></div>
+                                        </div>
+                                        <i class="fa fa-user"></i>
+                                        <!-- tab-content -->
+                                        <div class="tab-content">
+                                            <section class="tab-item-1">
+                                                <img class="graph-01" src="../images/graph.png" />
+                                            </section>
+                                            <section class="tab-item-2">
+                                                <img class="graph-01" src="../images/graph-02.png" />
+                                            </section>
+                                            <section class="tab-item-3">
+                                                <img class="graph-01" src="../images/graph-03.png" />
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class = "pjt-preview-2">
+                            <div class = "contents">
+                                <div class = "txt">
+                                    <p class = "up">우리 동네 음식점은 과연 깨끗할까요?</p>
+                                    <p class = "down">
+                                        위생 등급제와 같은 여러 제도의 도입에도 불구하고 여전히 비위생적인 환경에서 음식을 조리하고 이 사실을 숨겨 손님들에게 판매하는 식당이 존재합니다. 또한 코로나 19로 인해 위생에 대한 관심이 높아지면서 우리는 더이상 마음 놓고 외부 음식을 먹을 수 없게 되었습니다.
+                                    </p>
+                                </div>
+                                <div class = "img-scroll">
+                                    <img class="btn-nxt" alt="아이콘" src="../images/btn-nxt.png" />
+                                    <ul>
+                                        <MARQUEE behavior="scroll" scrollamount="30px"  direction="left" >
+                                            <li>
+                                                <img src="../images/project-preview-2-1.png" />
+                                            </li>
+                                            <li>
+                                                <img src="../images/project-preview-2-2.png" />
+                                            </li>
+                                            <li>
+                                                <img src="../images/project-preview-2-3.png" />
+                                            </li>
+                                        </MARQUEE>
+                                    </ul>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class = "pjt-preview-3">
+                            <div id="slide-area" class = "contents">
+                                <div class = "txt">
+                                    <p class = "up">그럼, <br /> <em>어디에서</em> 먹어야 하나요?</p>
+                                </div>
+                                <div class = "img-review">
+                                    <img id="scroll-img" src="../images/project-preview-3.png" width="1180px" />
+                                </div>
+                            </div>
+                        </article>
+                        <article class = "pjt-preview-4">
+                            <div>
+                                <div class = "fin-intro">
+                                    <p class = "up"><em>'위잇'</em> 에서 확인하세요</p>
+                                    <p class = "down">
+                                        외식하면서 우리가 자주 먹는 식당 음식이 어떤 환경에서 어떻게 조리되는지 궁금했던적 있으신가요? <br/>‘위잇’ 은 여러분들의 걱정을 덜어줄 수 있도록 음식점의 청결도 정보를 제공합니다
+                                    </p>
+                                </div>
+                                <div class = "naming">
+                                    <div class = "contents-1">
+                                        <p class = "up">Naming</p>
+                                        <p class = "down">
+                                            당신의 위생적인 외식 문화를 위해 <br />
+                                            당신의 위생적인 식당을 위해
+                                        </p>
+                                        <img src="../images/line.png" />
+                                    </div>
+                                    <div class = "contents-2">
+                                        <div class = "name-span">
+                                            <span>위생적인 eat</span> <span>+ </span> <span>we eat</span>
+                                        </div>
+                                        <div class = "name-logo">
+                                            <img src="../images/Logo-color.png" width="350px" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+
+                <!-- project introduce (1 - 2) -->
+                <div id = "introduce-area">
+                    <section>
+                        <article class = "introduce-target">
+                            <div>
+                                <!-- title -->
+                                <div class = "title">
+                                    <h2>
+                                        <div class = "num">
+                                            <img src="../images/num-2.png" />
+                                        </div>
+                                        <div class = "title-txt">
+                                            <p class="title-KR">프로젝트 소개</p>
+                                            <p class="title-EN">introduce project</p>
+                                        </div>
+                                    </h2>
+                                </div>
+                                <!-- contents -->
+                                <div class = "contents">
+                                    <div class = "txt">
+                                        <p class = "up">상황에 따라 <em>이용 종류</em>를 선택할 수 있어요</p>
+                                    </div>
+                                    <div class = "target-area">
+                                        <ol>
+                                            <li>
+                                                <img alt="손님 이미지" src="../images/target-1.png" />
+                                                <dl>
+                                                    <dt>손님</dt>
+                                                    <dd>
+                                                        외식과 배달음식을 많이 이용하시나요? <br />
+                                                        위잇이 가장 깨끗한 식당을 추천해드립니다
+                                                    </dd>
+                                                </dl>
+                                            </li>
+                                            <li>
+                                                <img alt="사장님 이미지" src="../images/target-2.png" />
+                                                <dl>
+                                                    <dt>사장님</dt>
+                                                    <dd>
+                                                        매장 위생이 걱정이신가요? <br />
+                                                        위잇이 사장님의 매장 관리를 도와드립니다
+                                                    </dd>
+                                                </dl>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class = "introduce-goal">
+                            <div class = "goal">
+                                <p class="up">Goal</p>
+                                <p class="down">
+                                    위잇을 사용하면 깨끗한 음식점을 빠르게 찾아볼 수 있습니다 <br />
+                                    위생에 대한 경각심을 느끼고 매장을 보다 쉽게 관리 할 수 있습니다
+                                </p>
+                                <!-- background-image : background-color.png -->
+                            </div>
+                        </article>
+                    </section>
+                </div>
+
+                <!-- design area (strategy - We-eat design) -->
+                <div id = "design-wrap">
+                    <div>
+                        <!-- design strategy -->
+                        <div id = "strategy-area">
+                            <section>
+                                <article class = "design-strategy">
+                                    <!-- title -->
+                                    <div class = "title">
+                                        <h2>
+                                            <div class = "num">
+                                                <img src="../images/num-3.png" />
+                                            </div>
+                                            <div class = "title-txt">
+                                                <p class="title-KR">디자인 전략</p>
+                                                <p class="title-EN">design strategy</p>
+                                            </div>
+                                        </h2>
+                                    </div>
+                                    <div class="img">
+                                        <img alt="디자인 전략" src="../images/design-stg.png" />
+                                    </div>
+                                </article>
+                            </section>
+                        </div>
+                        <!-- We-eat design -->
+                        <div id = "design-area">
+                            <section>
+                                <article id="app-login">
+                                    <!-- title -->
+                                    <div class = "title">
+                                        <h2>
+                                            <div class = "num">
+                                                <img src="../images/num-4.png" />
+                                            </div>
+                                            <div class = "title-txt">
+                                                <p class="title-KR">위잇 디자인</p>
+                                                <p class="title-EN">We eat design</p>
+                                            </div>
+                                        </h2>
+                                    </div>
+                                    <div class="alt-txt">앱 로그인 화면</div>
+                                </article>
+                                <article id="app-svc-01">
+                                    <div class="alt-txt">앱 손님 메인 및 랭킹 & 맵</div>
+                                </article>
+                                <article id="app-svc-02">
+                                    <div class="alt-txt">앱 손님 주문 화면</div>
+                                </article>
+                                <article id="app-svc-03">
+                                    <div class="alt-txt">위잇 뱃지 정보</div>
+                                    <div id="stamp">
+                                        <p class="up">
+                                            어플에 등록된 모든 매장에는 <em>위잇</em>에서 제공하는 <em>위잇 뱃지</em>로 위생 정도를
+                                            알 수 있습니다. 
+                                        </p>
+                                        <div class="stamp-area">
+                                            <ol class="stamp-ol">
+                                                <li>
+                                                    <img src="../images/stamp-1.gif" />
+                                                    <ul>
+                                                        <li>
+                                                            <dl>
+                                                                <dt>1</dt>
+                                                                <dd>매우 우수</dd>
+                                                            </dl>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <img src="../images/stamp-2.gif" />
+                                                    <ul>
+                                                        <li>
+                                                            <dl>
+                                                                <dt>2</dt>
+                                                                <dd>우수</dd>
+                                                            </dl>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <img src="../images/stamp-3.gif" />
+                                                    <ul>
+                                                        <li>
+                                                            <dl>
+                                                                <dt>3</dt>
+                                                                <dd>보통</dd>
+                                                            </dl>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <img src="../images/stamp-4.gif" />
+                                                    <ul>
+                                                        <li>
+                                                            <dl>
+                                                                <dt>4</dt>
+                                                                <dd>나쁨</dd>
+                                                            </dl>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <div class="clear"></div>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article id="app-svc-04">
+                                    <div class="alt-txt">앱 사장님 메인 & 서비스</div>
+                                </article>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- team -->
+                <div id = "team-area">
+                    <section>
+                        <!-- title -->
+                        <div class = "title">
+                            <h2>
+                                <div class = "num">
+                                    <img src="../images/num-5.png" />
+                                </div>
+                                <div class = "title-txt">
+                                    <p class="title-KR">위잇 팀</p>
+                                    <p class="title-EN">We-eat Team</p>
+                                </div>
+                            </h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <img src="../images/team-01.png" />
+                                <ul class="txt">
+                                   <li>기획자 <span>Planner</span></li> 
+                                   <li>정지은</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <img src="../images/team-02.png" />
+                                <ul class="txt">
+                                   <li>디자이너 <span>Designer</span></li>
+                                   <li>김민철</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <img src="../images/team-03.png" />
+                                <ul class="txt">
+                                   <li>개발자 <span>Programer</span></li>
+                                   <li>이명빈</li>
+                                </ul>
+                            </li>
+                            <div class="clear"></div>
+                        </ul>
+                    </section>
+                    
+                    <div class="btn">
+                        <div class="btn-wrap">
+                            <a id="btn-video" href="#video-area">영상 보기</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- footer -->
+            <footer>
+                <div class="logo-wrap">
+                    <h1 class="f-logo">
+                        <img alt="어플 로고" src="../images/app-logo.png" width="130px" />
+                    </h1>
+                    <div class="footer-right">
+                        <div class="footer-txt">
+                            <ul>
+                                <li><img alt="로고" src="../images/Logo.png" /></li>
+                                <li>당신의 위생적인 외식 문화를 위해</li>
+                                <li>당신의 위생적인 식당을 위해</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- Javascript Load -->
+        <script type="text/javascript" src="../js/script_Scroll.js"></script>
+    </body>
+</html>
